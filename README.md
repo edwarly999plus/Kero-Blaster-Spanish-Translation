@@ -7,7 +7,7 @@
 <img width="328" height="304" alt="kerooo" src="https://github.com/user-attachments/assets/3765c6af-eb6b-4285-8f75-e3059d4d3fc0" />
 
 [![Estado de traducción](https://img.shields.io/badge/Traducción-100%25_completa-brightgreen.svg)](https://github.com/edwarly999plus/kero-blaster-spanish-translation)
-[![Versión](https://img.shields.io/badge/Versión-1.0-blue.svg)](https://github.com/[TU_USUARIO]/kero-blaster-espanol/releases)
+[![Versión](https://img.shields.io/badge/Versión-1.0-blue.svg)](https://github.com/edwarly999plus/Kero-Blaster-Spanish-Translation/releases/tag/RC-1.0)
 [![Licencia](https://img.shields.io/badge/Licencia-CC--BY--NC--SA--4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 > **Traducción completa al español del juego Kero Blaster, creado por Daisuke Amaya (Studio Pixel).**  
@@ -51,7 +51,7 @@ El protagonista es una rana que trabaja para una empresa de limpieza de tele-tra
 - Localizar la carpeta de instalación del juego.
 
 ### Pasos
-1. **Descarga** el parche desde la sección [Releases](https://github.com/[TU_USUARIO]/kero-blaster-espanol/releases).
+1. **Descarga** el parche desde la sección [Releases](https://github.com/edwarly999plus/Kero-Blaster-Spanish-Translation/releases/).
 2. Extrae el contenido del `.zip` (debería contener los archivos traducidos).
 3. Ve a la carpeta de **Kero Blaster** (por ejemplo, `C:\Program Files (x86)\Steam\steamapps\common\Kero Blaster\`).
 4. **Sustituye** los archivos originales por los traducidos. Los archivos incluidos son:
