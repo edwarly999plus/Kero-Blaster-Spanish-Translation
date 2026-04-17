@@ -1,4 +1,10 @@
+<div align= "center">
+
 # Kero Blaster - Parche de traducción al español
+
+<p align= "center">
+
+<img width="328" height="304" alt="kerooo" src="https://github.com/user-attachments/assets/3765c6af-eb6b-4285-8f75-e3059d4d3fc0" />
 
 [![Estado de traducción](https://img.shields.io/badge/Traducción-100%25_completa-brightgreen.svg)](https://github.com/edwarly999plus/kero-blaster-spanish-translation)
 [![Versión](https://img.shields.io/badge/Versión-1.0-blue.svg)](https://github.com/[TU_USUARIO]/kero-blaster-espanol/releases)
@@ -8,6 +14,8 @@
 > *Adaptada a ASCII para compatibilidad con la fuente original del juego (sin `ñ`, acentos, `¿` ni `¡`).*
 
 ---
+
+<div align= "left">
 
 ## 📋 Estado de la traducción
 
