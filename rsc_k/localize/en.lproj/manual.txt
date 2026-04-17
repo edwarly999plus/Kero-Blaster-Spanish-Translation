@@ -1,0 +1,69 @@
+< Controles >
+
+* Muevete con los botones direccionales.
+-* Salta con el boton de salto.
+
+-* Sube escaleras con el boton de salto.
+-  Manten el boton para subir.
++* Salta con el boton de salto.
++
++* Sube escaleras con los botones arriba y abajo.
+
++* Puedes cambiar los controles
++  desde la pantalla de menu.
+/
+< Controles (Ataques) >
+
+-* Presiona el boton de disparo
+-  en la direccion que quieras disparar
+-  y tu blaster disparara continuamente.
++* Tu blaster disparara continuamente
++  en la direccion a la que apuntas mientras
++  mantienes presionado el boton de disparo.
+
+* Puedes disparar a la izquierda, derecha,
+  y hacia arriba.
+/
+ < Cambio de Arma >
+
+* Presiona el boton de cambio de arma
+  para cambiar de arma.
+
+* Solo tienes un arma al principio,
+  asi que no es posible cambiar.
+/
+ < Sobre guardar >
+
+* El juego se guarda automaticamente cada vez
+  que cambias de habitacion,
+  o compras algo en una tienda.
+
+* Tienes un total de
+  3 ranuras de guardado.
+/
+ < Dinero y Tiendas >
+
+* Dentro de las tiendas, puedes usar las monedas
+  recolectadas para mejorar armas y comprar objetos.
+
+* No pierdes monedas al ser derrotado.
+/
+ < Sobre Game Over >
+
+* Si eres derrotado sin 
+  Š^ restante, es game over.
+
+* Un game over significa comenzar de nuevo
+  desde el principio de la Etapa.
+
+* Sin embargo, no perderas
+  tus monedas, mejoras u objetos.
+/
+< Jetpack >
+
+* Encontraras este objeto
+  en algun lugar del juego.
+
+* Con este objeto puedes realizar
+  un doble salto para alcanzar
+  lugares mas altos.

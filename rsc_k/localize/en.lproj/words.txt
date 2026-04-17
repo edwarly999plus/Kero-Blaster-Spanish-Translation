@@ -1,0 +1,175 @@
+-
+
+ -- titulo de escena --
+Menu de Depuracion
+Comenzar Partida
+Datos de Guardado (Depuracion)
+Copiar Datos de Guardado
+Borrar Datos de Guardado
+
+Editar Datos de Guardado
+Guardado automatico
+Mejoras
+Tienda
+Nueva Arma
+
+Nuevo Objeto
+Configuracion de Controles
+Menu
+Manual
+Tamano de pantalla
+
+ -- etiqueta --
+Comenzar una nueva partida
+Ranura vacia
+圃 punto de control..
+Elige tu destino
+MAX
+
+Mover izquierda
+Mover derecha
+Mirar arriba
+Saltar
+Disparar
+Abrir menu
+
+Tamano pantalla x1
+Tamano pantalla x2
+Tamano pantalla x3
+Tamano pantalla x4
+Pantalla completa
+ERROR! Lo siento!
+
+AGOTADO
+
+ -- boton --
+Si
+No
+Volver
+Volver al Titulo
+
+Salir del juego
+Volver al juego
+OK
+Cancelar
+Comenzar partida
+
+Comenzar con este guardado
+Revisar otros datos
+Salir del juego
+Nos vemos!		no exit drug-store
+Nos vemos!		no exit gradeup
+
+Cerrar
+Confirmar
+
+
+
+TIENDA DE CORAZONES
+PUNTO DE INICIO
+
+
+ -- config de teclas --
+
+
+Izquierda ←
+Arriba ↑
+Derecha →
+Abajo ↓
+
+Saltar
+Disparar
+Cambiar Arma
+Menu
+
+Confirmar
+Cancelar
+
+ -- debug --
+dbg parametros
+dbg flags (usuario)
+dbg flags (juego)
+dbg dinero
+dbg tiempo
+dbg guardar
+dbg modo depuracion
+
+ -- win --
+Pantalla
+Pantalla completa
+Salir
+Volumen
+Este tamano de pantalla no es compatible.
+
+ -- Armas --------------
+Lanzaguisantes
+Repetidor
+Laser
+Laser Uzi
+Rayo Mortal
+
+Abanico
+Ancho
+Cuadruple
+Ninja
+
+Burbuja
+Globo
+Mina Estrella
+
+Fuego
+Quemador
+Fundidor
+
+クロブラ1
+クロブラ2
+クロブラ3
+
+ペンシルズ
+ラディッシュ
+
+ゲロバブル
+バブルダスト
+
+ -- Aero --------------
+-
+Paraguas
+Jetpack
+2 doble salto
+
+ -- Objeto(nuevo) ----------
+Jetpack
+Frasco de Corazones
+Chaqueta
+
+Corazon
+Corazones
+Mejora de Corazones
+1UP
+
+ -- Area --------------
+Desconocido
+Fuerte Hinterland
+Zona Verde
+Hotel OXOX
+Laboratorios White
+Meseta Hekichi
+Estacion de Tren
+De vuelta a la Oficina
+Sala de Transporte
+nivel9
+
+ -- "stage 0" ----------
+Etapa 0
+Etapa 1
+Etapa 2
+Etapa 3
+Etapa 4
+Etapa 5
+Etapa 6
+Etapa 7
+Etapa ?
+Etapa 9
+
+ -- final --
+Un momento...

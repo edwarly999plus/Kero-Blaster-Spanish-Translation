@@ -1,0 +1,615 @@
+Japanese..
+*[expTest]
+abc<frez
+
+// Scene ###########
+*[expFirstPlay]
+<blln[none;0]Es tu primera vez?<jmpS[Si;No;_newGameNo;1]<cler
+<nxtl Espero que te diviertas!<nodB<fadO<trns[00titleTuto;Intro;IN]
+*[_newGameNo]
+<cler<nxtl Lo siento.<nodB<fadO<jump[gPrologue]
+
+*[expCompanyName]
+<txtP[11;8]Cat & Frog Inc.<exit
+
+*[expHospitalName]
+<txtP[11;8]Hospital Tonekawa<exit
+
+*[expHospiceName]
+<txtP[11;8]Hospital Bruhaha<exit
+
+*[expElevator01]
+<dl60<blln[*i;0]El Presidente esta enojado otra vez, eh?<nodB
+<blln[*s;0]Ultimamente, solo tenemos problemas.<nodB
+<blln[*i;0]Debe estar afectandola.<nodB<exit
+*[expCheer01]
+<blln[*i;0]Buena suerte en el trabajo!<nodc<plDi[0]<exit
+*[expTrans01]
+<blln[*i;0]...Cual es su trabajo exactamente?<nodB
+<dl60<swtN[*s;1]
+<dl20<blln[*s;0]Su trabajo...?<nodB
+<blln[*i;0]Hmm...<nodB
+<blln[*s;0]<swtN[*s;0]...Ciencias de la limpieza.<nodB<exit
+
+*[expElevator02]
+<dl60<blln[*i;0]El Presidente sigue de mal humor, eh?<nodB
+<blln[*s;0]Quizas si terminas de limpiar los
+dispositivos de transporte ella se alegre?<nodB
+<dl20<swtN[*s;1]
+<dl20<blln[*s;0]Toma, esto es para ti...<nodB
+<dl20<plDi[1]
+<dl20<jmpI[Lifepot;_Money02]<whtO<newA[Lifepot;_expElev02]
+*[_Money02]
+<mony[100]
+<dl60<jump[_Teate02]
+*[_expElev02]
+<lkFU[1]<fadI<dl20<pkup[Lifepot;0]<jump[_Teate02]
+*[_Teate02]
+<skip[gSkipToStage]
+<dl20<swtN[*s;0]
+<dl20<blln[*s;0]Eso es todo lo que recibes de
+viaticos.<nodB
+<blln[*i;0]A donde va despues?<nodB
+<blln[*s;0]Emmm....<nodc
+Siguiente es un lugar con mucha vegetacion.<nodB<jump[elev2_2]
+*[expCheer02]
+<blln[*i;0]Cuidado con los mosquitos! <nodc<plDi[0]<exit
+
+*[expElevator03]
+<dl60<blln[*i;0]El Presidente esta muy mal, eh?<nodc
+La limpieza no va bien?<nodB
+<dl20<swtN[*s;1]
+<dl20<blln[*s;0]No, todo va segun lo previsto.<nodB
+<blln[*i;0]Ya veo...<nodB
+<dl20<swtN[*s;0]
+<dl60<blln[*s;0]Quedan dos areas mas en la cuota.<nodB<exit
+*[expCheer03]
+<blln[*i;0]No nos traigas nada de alla!<nodc<plDi[0]<exit
+
+*[expTrans04_1]
+<dl20<swtN[*s;1]
+<dl20<blln[*s;0]Que?<nodc
+Algo le pasa al Presidente?<nodB
+<dl60<swtN[*i;1]
+<dl60<blln[*s;0]Esta bien. Ire a revisarlo.<nodB<exit
+*[expElevator04]
+<blln[*s;0]No se que decir...<nodc<plDi[1]
+<dl20<swtN[*s;1]
+<dl20 No se que puedo hacer para ayudar...<nodB
+<dl20<blln[*s;0]Aun nos queda nuestra cuota,<nodc
+asi que solo tenemos que cumplirla por ahora.<nodB
+<dl20<blln[*s;0]Solo queda un lugar mas.<nodB<exit
+*[expCheer04]
+<blln[*s;0]El ultimo lugar es Laboratorios White.<nodc<exit
+*[expTrans04_2]
+<dl20<swtN[*i;5]
+<dl20<blln[*i;0]Laboratorios White?<nodc
+Es todo blanco?<nodB
+<dl20<swtN[*s;1]
+<dl20<blln[*s;0]....<nodc
+En este punto? Ni idea...<nodc<cler
+<nxtl Pero, el podra manejarlo.<nodB
+<blln[*i;0]...?<nodB
+<dl20<swtN[*s;0]
+<dl20<blln[*s;0]Bueno... probablemente.<nodB<exit
+
+*[expSisterOmg]
+<blln[*i;1]Queeeeee!?<nodB<exit
+
+*[expNotice05]
+<swtN[*i;5]
+<dl20<blln[*i;0]Yay! Despertaste!<nodB<plAc[nrml]
+<dl20<plDi[0]
+<dl20<swtN[*s;1]
+<dl20<blln[*s;0]Por lo menos parece ileso.<nodB
+<dl20<swtN[*s;0]
+<dl20<blln[*s;0]Parece que el transportador fallo
+por culpa de esas "cosas" negras.<nodB
+<dl20<swtN[*i;5]
+<dl20<blln[*i;0]"Cosas" negras?<plDi[1]<nodB
+<dl20<swtN[*s;1]
+<dl20<blln[*s;0]Si. <nodc Estoy seguro de que las viste
+por ahi, pero basicamente son...<nodc
+"negativus legatia".<nodB
+<blln[*i;0]Que demonios son
+"negativus legatia"?<nodB
+<dl20<swtN[*s;0]
+<dl20<blln[*s;0]Um...<nodc<cler
+<nxtl Las llamarias pedazos de tu pasado
+que han sido desechados, <nodc creo.<nodB
+<dl20<plDi[0]
+<dl20<swtN[*s;1]
+<dl20<blln[*s;0]Vamos a tener que hacer algo
+con estas "cosas". <nodc<cler
+<nxtl Investigue y estas "cosas" vienen
+del servidor roto en la Meseta Hekichi. <nodc<cler
+<nxtl Si logramos arreglar ese servidor,
+quizas podamos erradicar estas plagas.<nodB
+<dl20<swtN[*i;5]
+<dl20<blln[*i;0]Pero el dispositivo de transporte
+no esta roto?<nodB
+<blln[*s;0]Podemos enviarlo a la base de la
+meseta solo conectando manualmente.<nodB<exit
+
+*[expElevator05]
+<dely[90]<swtN[*s;1]
+<dl20<blln[*s;0]Toma algo para que te pongas.<nodc<plDi[1]<bllR
+<whtO<newA[Jacket;_expElev05]
+*[_expElev05]
+<lkFU[1]<skip[gSkipJacketGo]<fadI<dl20<pkup[Jacket;0]
+<dl20<swtN[*i;5]
+<dl20<blln[*i;0]No te esfuerces demasiado.<nodB<plDi[0]
+<dl20<jump[elev5_2]
+
+*[expTrans05_1]
+<blln[*s;0]Una vez que el servidor este en linea,
+te llamaremos.<nodB<exit
+
+*[expCheer05]
+<blln[*s;0]Estoy bastante seguro de que
+aun hay un telefono ahi...<nodc<exit
+
+*[expTrans05_2]
+<swtN[*i;5]
+<dl20<blln[*i;0]...Oye, <nodc esa "mascota" rara
+del Presidente no es otra de
+estas "cosas" negras de las que hablamos?<nodB
+<dl60<swtN[*s;0]<muSt
+<dl20<blln[*s;0]...Si, <nodc es cierto.<nodB
+<blln[*i;0]Bueno, que vamos a hacer al respecto?<nodB
+<dl20<swtN[*s;1]
+<dl20<blln[*s;0]Tendremos que encargarnos de
+esa nosotros mismos.<nodB<swtN[*i;2]
+<dl20<blln[*i;1]Yo tambien tengo que ayudar!?<nodB
+<dl20<swtN[*s;1]
+<dl60<blln[*s;0]Digamos que nos encargamos de eso.
+Significaria menos dolores de cabeza
+y tal vez menos horas extras...<nodB
+<dl60<swtN[*i;5]<muLp
+<dl20<blln[*i;1]HAGAMOSLO!<nodB
+<dl20<swtN[*s;0]<exit
+
+
+*[expPhone05]
+<blln[-;0]Oye, estas bien?<nodc<cler
+<nxtl Estamos recibiendo una senal del servidor.<nodc
+Parece que las "cosas" tambien han dejado
+de replicarse.<nodc<cler
+<nxtl.....................<nodc
+Sip, <nodc parece que todo funciono.<nodc
+Hiciste un gran trabajo.<nodc<cler
+<nxtl Esto es una preocupacion menos.<nodc
+Cuando regreses, deberias tomarte un tiempo
+libre.<nodB
+<dl20<blln[-;0]Ah, por cierto...<nodc
+no hay un dispositivo de transporte ahi. <nodc<cler
+<nxtl Asi que toma el tren para volver.<nodc
+Pagaremos el boleto con nuestro presupuesto.<nodB
+<blln[-;0]<nxtl Bueno, <nodc nos vemos pronto.<nodB
+<exit
+
+*[expTrans06]
+<blln[Sister06;0]El Presidente ya no esta en su oficina!<nodB
+<dl20<swtN[*s;1]
+<dl20<blln[*s;0]Esta bien.<nodc
+Encarguemonos de esto antes de que regrese.<nodB
+<dl60<exit
+
+*[expElevator06]
+<blln[*s;0]Bueno, ahora que el servidor esta arreglado,
+solo tenemos que encargarnos de la
+"mascota" del Presidente y...<nodB
+<blln[*i;1]no mas horas extras, verdad!?<nodB
+<dl20<swtN[*i;5]
+<dl60<blln[*i;0]...pero si el Presidente se entera de
+lo que hicimos, seran problemas, eh?<nodB
+<dl60<swtN[*s;1]
+<dl20<blln[*s;0]Si.<nodc
+Si nos atrapan...<nodB
+<dl20<swtN[*s;0]
+<dl20<blln[*s;0]...Tendremos suerte si solo nos despiden.<nodB
+<blln[*i;0]<nxtl Gah...<nodB<exit
+
+*[expOffice06]
+<dl20<swtN[*i;5]
+<dl20<blln[*i;0]Woah...!<nodc
+No habia visto esta cosa en un tiempo.
+Siempre se vio asi?<nodB
+<blln[*s;0]Esto no es bueno...<nodc
+Apresuremonos y llevemoslo afuera.<nodB<exit
+
+*[expOkujou06]
+<dl20<swtN[*i;5]
+<dl20<curN[*i]<prm2[UzoBrain;2]
+<blln[*i;0]Woah! Esta parpadeando por alguna razon.<nodc
+Esto no se ve bien, verdad?<nodB
+<dl20<blln[*s;0]No hay de otra.
+Encarguemonos de esto aqui mismo.<nodB
+<dl20<swtN[DoorOkujo;1]
+<dl20<blln[*s;0]Ah.<nodB<dirN[-;1]
+<dl20<swtN[-;2]
+<dl60<fcsN[Shacho06a;0]<wtFc<swtN[DoorOkujo;4]<dirN[-;0]
+<dl60<fcsN[UzoBrain;0]<wtFc
+<dl60<blln[*i;1]Q-Q-Que hacemos!?<nodB<prm2[UzoBrain;3]<exit
+
+*[expEpiTalk1]
+<dl20<blln[*s;0]...He visto estas "cosas" en varios sitios,
+pero nunca espere que se salieran tanto de
+control.<nodc<cler
+<nxtl Ojala lo hubiera descubierto antes.<nodB
+<dl20<swtN[*s;0]
+<dl20<blln[*s;0]Sin embargo, gracias a tu ayuda,
+finalmente resolvimos el problema de estos
+"negativus legatia".<nodB
+<dl60<swtN[*s;1]
+<dl60<blln[*s;0]Uf...<nodc<cler
+<nxtl Realmente recibiste una paliza en este
+trabajo, eh? Hiciste un trabajo fantastico.<nodB<swtN[*i;2]
+<dl20<blln[*i;0]Pense que te habias muerto!<nodB<swtN[*i;5]
+<dl20<blln[*i;0]Sin embargo, esto significa que no hay
+mas horas extras, verdad?<nodB
+<dl20<swtN[*s;0]<blln[*s;0]Si, asi es.<nodc<cler
+<nxtl Los incidentes reportados ya estan
+disminuyendo, asi que deberiamos poder
+salir a tiempo de ahora en adelante.<nodB
+<dl20<swtN[*s;1]<blln[*s;0]Eso depende del Presidente, sin embargo.
+Puede que encuentre algo mas para que hagamos.<nodB
+<dl20<blln[*i;0]Hablando de eso, como esta el Presidente?<nodB
+<dl20<blln[*s;0]Hmmm...<nodc<cler
+<nxtl En realidad no he hablado con ella
+desde lo que paso. <nodB<swtN[*i;2]
+<dl20<blln[*i;1]Que!?<nodc
+Eso no es una buena senal en absoluto...<nodB<swtN[*i;5]
+<dl20<blln[*i;0]No me digas que nos van a despedir!<nodB
+<dl20<blln[*s;0]No puedo negar la posibilidad.<nodc
+Especialmente porque el Presidente estaba
+tan encariñado con esa "mascota".<nodB<exit
+
+*[expEpiTalk2]
+<blln[*s;0]Je...<nodB
+<dl20<dirN[*i;0]
+<dl20<blln[*s;0]Supongo que no estaba tan encariñada
+con esa "mascota" como pensabamos.<nodB
+<dl20<dirN[*i;1]
+<dl20<blln[*i;0]Deberiamos alegrarnos de que
+el Presidente no es del tipo que
+guarda rencor.<nodB
+<dl20<swtN[*s;1]
+<dl20<blln[*s;0]Bueno, nos vemos de vuelta en la oficina.<nodB
+<dirN[*i;0]<swtN[*i;5]
+<dl20<blln[*i;0]Mejorate pronto!<nodB<exit
+
+*[expLastQuest]
+<blln[Kajiya1;0]Quedaste satisfecho con tu partida?<jmpS[Si!;No!;Restart1;1]
+<cler<nxtl Me alegra oirlo.<nodc
+Si quieres, juega un poco mas.<nodB<fadO<dl60<titl
+
+*[expHaii]
+Disculpe?<exit
+
+*[expGoodLuck]
+Bueno, buena suerte!<exit
+
+// Hospital ###########
+
+*[expSureRetry]
+<blln[*s;0]Intentarlo de nuevo?<dl20<jmpS[Si;No;_Negirai;1]<cler
+<bllR<remD<save<plAc[nrml]<exit
+*[_Negirai]
+<lkFU[1]<cler<nxtl<nxtl Buen trabajo.<jump[_Gover]
+
+*[expSureRetry2]
+<swtN[Phone;2]
+<dl20<swtN[Phone;3]
+<dely[90]<jmpS[Si;No;_Negirai2;1]<cler
+<bllR<remD<save<plAc[nrml]<swtN[Phone;0]<exit
+*[_Negirai2]
+<lkFU[1]<swtN[Phone;4]<jump[_Gover]
+
+*[expSureRetry3]
+<blln[Nurse;0]Hm? Listo para mas?<dl20<jmpS[Si;No;_Negirai3;1]<cler
+<bllR<remD<save<plAc[nrml]<swtN[Phone;0]<exit
+*[_Negirai3]
+<lkFU[1]<cler<nxtl<nxtl Bueno, esta bien...<jump[_Gover]
+
+*[expBRFailed]
+<blln[Kajiya1;0]
+<jmpF[847;_BR_BossPlate]
+<jmpF[846;_BR_Shacho]
+<jmpF[845;_BR_ClockMan]
+<jmpF[844;_BR_Dark2]
+<jmpF[843;_BR_N577]
+<jmpF[842;_BR_Dekaigyo]
+<jmpF[841;_BR_Gorgon]
+Te golpearon feo, eh?<nodc<exit
+*[_BR_BossPlate]
+Que lastima. Estuviste tan cerca.<nodc<exit
+*[_BR_Shacho]
+Casi llegas, tambien.<nodc<exit
+*[_BR_ClockMan]
+Ese reloj se parece exactamente
+al despertador que tenia.<nodc<exit
+*[_BR_Dark2]
+Estas batallas continuas
+deben ser duras, eh?<nodc<exit
+*[_BR_N577]
+Oh? No te sientes muy bien?<nodc<exit
+*[_BR_Dekaigyo]
+Que lastima que no lo lograste esta vez.<nodc<exit
+*[_BR_Gorgon]
+Bueno, eso fue rapido.<nodc<exit
+
+
+// Time Attack ###########
+
+*[expBossRush]
+<dl20<blln[Kajiya1;0]<flgO[802;_expBR2]Has llegado lejos, amarillo.<nodc<jump[_expBR2]
+*[_expBR2]
+<dl20<plDi[1]
+<dl20 Estas preparado?<jmpS[Si;No;_expBR2n;1]<cler
+<dl20<nxtl Buena suerte!<nodB<jump[GoBossRush]
+*[_expBR2n]
+<bllR<exit
+
+*[_Gover]
+<dl60<plAc[bedLie]
+<dl60<bllR<swtN[Phone;0]<fadO<remD<save<govr
+
+
+// Drugstore ###########
+
+*[DStore_Start]
+<free Necesitas algo?<frez
+*[DStore_NEMny]
+<free No tienes suficiente $.<qOK_<frez
+*[DStore_Error]
+<free Error de la tienda<qOK_<frez
+*[DStore_SoldOut]
+<free Eso esta agotado. Lo siento!<frez
+
+*[expDrug_hrt]
+<free<namI[Heart]
+Esto repone 1 數.<jump[_drugSure]
+*[expDrug_hts]
+<free<namI[Hearts]
+Esto repone completamente tu barra de 數.<jump[_drugSure]
+*[expDrug_LiU]
+<free<namI[Lifeup]
+Esto aumenta tu total de
+數 en 1.<jump[_drugSure]
+*[expDrug_LiP]
+<free<namI[Lifepot]
+Esto repone automaticamente
+4 數 cuando pierdes tu ultimo 數.<jump[_drugSure]
+*[expDrug_1up]
+<free<namI[1UP]
+<free Esto aumenta tu total de 奮 en 1.<jump[_drugSure]
+
+*[_drugSure]
+<jmpS[Claro!;No gracias.;_drugNo;0]<sign[1]<frez
+*[_drugNo]
+<frez
+
+*[expDrug_hrt_buy]
+<free<life[ 1]<souv[life_obtn]<nxtl Se repuso 1 數.<qOK_<frez
+*[expDrug_hts_buy]
+<free<life[99]<souv[life_obtn]<nxtl Tu barra de 數 se repuso completamente.<qOK_<frez
+*[expDrug_LiU_buy]
+<free<lifm[1 ]<souv[life_obtn]<life[99]<nxtl Tu total de 數 aumento en 1.<qOK_<frez
+*[expDrug_LiP_buy]
+<free<itmP[Lifepot]<souv[item_obtn]<nxtl Compraste un <namI[Lifepot].<qOK_<frez
+*[expDrug_1up_buy]
+<free<rema[ 1]<souv[mpc_1up]<nxtl Tu cuenta de 奮 aumento en 1.<qOK_<frez
+
+*[expDrug_hrt_max]
+<free<nxtl Tu barra de 數 ya esta llena.<qOK_<frez
+*[expDrug_hts_max]
+<free<nxtl Tu cuenta de 數 ya esta al maximo.<qOK_<frez
+*[expDrug_LiU_max]
+<free<nxtl Eso esta agotado. Lo siento!<qOK_<frez
+*[expDrug_LiP_max]
+<free<nxtl Ya tienes uno.<qOK_<frez
+*[expDrug_1up_max]
+<free<nxtl Eso esta agotado. Lo siento!<qOK_<frez
+
+
+// Arms ###########
+
+*[Gradeup_Start]
+Que arma te gustaria ver?<frez
+*[Gradeup_Empty]
+Ni siquiera hay nada ahi todavia...<frez
+*[Gradeup_Max]
+<nxtl Esa arma ya esta al maximo poder.<frez
+*[gradeup_no]
+<frez
+*[Gradeup_NEMny]
+No parece que tengas suficiente $.<qOK_<frez
+*[Gradeup_Finish]
+Tu <regT[0] 
+aumento de poder a <regT[1].<qOK_<frez
+*[Gradeup_AllMax]
+<nxtl Todas tus armas ya estan al maximo poder.<frez
+
+// -- arms --
+*[_ArmsSure]
+<jmpS[Mejorarla!;Mejor no.;gradeup_no;0]<sign[1]<frez
+
+*[oprtBean]
+<free Tu primera arma.
+Es mejor que nada.<qOK_<frez
+*[oprtBean1]
+<lump[1]Esta mejora te permite disparar mas lejos.
+Es un comienzo al menos.<jump[_ArmsSure]
+*[oprtBean2]
+<lump[1]La mejora de laser es un ataque
+concentrado, asi que es efectivo
+incluso contra enemigos duros.<jump[_ArmsSure]
+*[oprtBean3]
+<lump[1]Esto aumenta la cadencia del laser!
+Esta es el arma mas poderosa
+que puedes conseguir.<jump[_ArmsSure]
+
+*[oprtWide]
+<free Tiene una dispersion amplia,
+asi que es mas facil golpear
+enemigos. Mantiene su
+poder bajo el agua.<qOK_<frez
+*[oprtWide1]
+<lump[1]Esto aumentara el tamano de las balas.
+Ideal para eliminar a los pequenos.<jump[_ArmsSure]
+*[oprtWide2]
+<lump[1]Esto es un disparo disperso con 4 balas,
+efectivo incluso a larga distancia.<jump[_ArmsSure]
+*[oprtWide3]
+<lump[1]Estas mortales estrellas rebotaran en
+las paredes, haciendo esta arma ideal
+para espacios reducidos.<jump[_ArmsSure]
+
+*[oprtBubble]
+<free Estas balas ruedan hacia adelante
+por una larga distancia.
+Tambien son boyantes,
+asi que flotan en el agua.<qOK_<frez
+*[oprtBubble1]
+<lump[1]Esto aumenta el dano general,
+y es la mejor arma para
+disparar cuesta abajo.<jump[_ArmsSure]
+*[oprtBubble2]
+<lump[1]Aumenta la velocidad de desplazamiento
+y la cadencia. Para los amantes de
+las burbujas.<jump[_ArmsSure]
+
+*[oprtFire]
+<free Esta arma es fuerte contra
+enemigos de elemento frio,
+y cancela proyectiles
+enemigos.<qOK_<frez
+*[oprtFire1]
+<lump[1]Esta mejora potencia la llama
+para que llegue mas lejos.<jump[_ArmsSure]
+*[oprtFire2]
+<lump[1]Esta mejora incluye una barrera de fuego,
+que avanza cuando dejas de disparar.<jump[_ArmsSure]
+
+*[oprtKurob]
+<free Un arma misteriosa.<qOK_<frez
+
+
+*[oprtRocket]
+<free Esta arma hace un gran dano
+si acierta a su objetivo.<qOK_<frez
+
+*[oprtJetpack]
+<free Ahora puedes hacer doble salto!
+Explora mas alto y mas lejos
+que nunca! <qOK_<frez
+*[oprtLifepot]
+<free Este objeto repone automaticamente
+4 數 cuando pierdes tu ultimo 數.<qOK_<frez
+
+*[oprtJacket]
+Este objeto absorbe un ataque.
+Ademas, es calentito y
+muy elegante!<qOK_<frez
+
+
+
+// Data Slots ###########
+
+*[EditSlots]
+Editar datos de guardado.<frez
+
+*[ThereIsRelay]
+Ya tienes una partida en curso.<frez
+
+*[StartSlot]
+Selecciona los datos de guardado para continuar.<frez
+
+*[SaveSlot]
+Donde te gustaria guardar?<frez
+
+*[ClearSlot]
+Que datos de guardado te gustaria borrar?<frez
+
+*[CopySlot]
+Que datos quieres copiar?<frez
+
+*[PasteSlot]
+Elige la ranura a la que copiar.<frez
+
+*[SlotsFull]
+Todas las ranuras de guardado estan en uso.<frez
+
+*[SlotsEmpty]
+No hay datos de guardado disponibles.<frez
+
+*[SureStart]
+Comenzar el juego con estos datos.<frez
+
+*[SureClear]
+Estos datos de guardado se borraran para siempre.<frez
+
+*[Cleared]
+Estos datos de guardado fueron borrados.<frez
+
+*[CantClear]
+Estos datos de guardado no se pueden borrar.<frez
+
+*[Copied]
+Los datos de guardado fueron copiados.<frez
+
+*[CantCopy]
+Estos datos de guardado no se pueden copiar.<frez
+
+
+// key config --------------
+
+*[KeyCfg_PreSure]
+Tecla F1: Cambiar configuracion de teclas
+Tecla F2: Salir
+Tecla F3: Restaurar valores predeterminados<frez
+
+*[PadCfg_PreSure]
+仾: Cambiar configuracion de botones
+仺: Salir
+伀: Restaurar valores predeterminados<frez
+
+*[KeyCfg_Set1]
+Presiona las teclas que quieres usar
+para las acciones del personaje en orden.<frez
+*[PadCfg_Set1]
+Presiona los botones que quieres usar
+para las acciones del personaje en orden.<frez
+
+*[KeyCfg_Set2]
+Presiona las teclas que quieres usar
+para la navegacion del menu en orden.<frez
+*[PadCfg_Set2]
+Presiona los botones que quieres usar
+para la navegacion del menu en orden.<frez
+
+*[KeyCfg_AftSure]
+Esta bien?
+Si ...... Tecla F1
+No ...... Tecla F2<frez
+*[PadCfg_AftSure]
+Esta bien?
+Si ...... Boton izquierdo (仼)
+No ...... Boton derecho (仺)<frez
+
+*[KeyCfg_InitSure]
+Restaurar a la configuracion predeterminada?
+Si ...... Tecla F1
+No ...... Tecla F2<frez
+*[PadCfg_InitSure]
+Restaurar a la configuracion predeterminada?
+Si ...... Boton izquierdo (仼)
+No ...... Boton derecho (仺)<frez
+
+*[KeyCfg_Applied]
+<souv[item_obtn]Tus configuraciones han sido guardadas.<frez
+*[KeyCfg_Canceled]
+<souv[dlg_cancel]Configuracion cancelada.<frez
+*[KeyCfg_Error]
+<souv[dlg_err]No se pudieron guardar tus configuraciones.<frez

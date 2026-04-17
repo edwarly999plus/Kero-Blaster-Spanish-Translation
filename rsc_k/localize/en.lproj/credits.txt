@@ -1,0 +1,81 @@
+*title
+
+
+*group
+
+	- Daisuke Amaya -
+-
+	Programa
+	Graficos
+	Diseno de personajes
+	Musica y Efectos de sonido
+	Guion
+
+
+*group
+	- Kiyoko Kawanaka -
+-
+	Coordinacion
+	Diseno de mapa y niveles
+	Direccion
+
+
+*group
+	--- PRETEST ---
+-
+	NAKO
+	DORANICOF-P
+	tora-i
+	HirakenCom
+	Iku Yunagi
+	Akai
+	Koki Takechi
+	KuruKuru
+
+
+*group
+	--- LOCALIZACION ---
+-
+	P L A Y I S M
+	Josh Weatherford
+	Nayan Ramachandran
+
+
+*group
+	--- DESARROLLO DE SOFTWARE ---
+-
+	Herramienta Pixelart EDGE2
+	- Takabo Soft -
+-
+-
+	--- SOPORTE DE PROGRAMACION para iOS ---
+-
+	Yuichi Fujishige
+
+
+*group
+	--- AGRADECIMIENTOS ESPECIALES ---
+-
+	Nao Ueda
+	Shunji Mizutani
+-
+	Tyrone Rodriguez
+
+
+
+
+
+
+*group
+	Gracias por jugar!!
+
+
+
+
+
+
+
+*group
+	2014 Studio Pixel
+
+*stop

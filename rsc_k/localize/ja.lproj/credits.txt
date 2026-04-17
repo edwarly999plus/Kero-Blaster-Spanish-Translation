@@ -1,0 +1,83 @@
+
+	*title
+
+
+*group
+	- 天谷 大輔 -
+-
+	プログラム
+	グラフィック
+	キャラクターデザイン
+	音楽・効果音
+	シナリオ
+
+
+*group
+	- 川中 紀陽子 -
+-
+	企画まとめ
+	マップ＆レベルデザイン
+	演出
+
+
+*group
+	--- テストプレイ・動作確認 ---
+-
+	なこ
+	ドラニコフP
+	虎い(仮)
+	HirakenCom
+	夕凪 郁
+	吾解
+	武智 巧起
+	くるくる
+
+
+*group
+	--- 翻訳 ---
+-
+	P L A Y I S M
+	Josh Weatherford
+	Nayan Ramachandran
+
+
+*group
+	--- ソフト開発 ---
+-
+	E D G E 2
+	- Takabo Soft -
+-
+-
+	--- iOSプログラミングサポート ---
+-
+	藤重 雄一
+
+
+*group
+	--- SPECIAL THANKS ---
+-
+	Nao_u
+	水谷 俊次
+-
+	Tyrone Rodriguez
+
+
+
+
+
+
+*group
+	Thank you for playing!!
+
+
+
+
+
+
+
+
+
+*group
+	2014 開発室Pixel
+
+*stop
