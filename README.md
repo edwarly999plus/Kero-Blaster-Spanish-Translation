@@ -1,6 +1,6 @@
 <div align= "center">
 
-# Kero Blaster - Parche de traducción al español
+# Kero Blaster - Parche de traducción al español latino
 
 <p align= "center">
 
