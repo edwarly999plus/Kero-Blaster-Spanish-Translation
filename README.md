@@ -12,7 +12,7 @@
 
 > **Traducción completa al español del juego Kero Blaster, creado por Daisuke Amaya (Studio Pixel).**  
 > *Adaptada a ASCII para compatibilidad con la fuente original del juego (sin `ñ`, acentos, `¿` ni `¡`).*
-> *Solo funciona en la versión 1.0.6.3.*
+> *Solo funciona en la versión 1.0.6.3 la cual no acepta ciertos carácteres debido al font antiguo.*
 
 ---
 
